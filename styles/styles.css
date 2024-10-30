@@ -9,14 +9,8 @@
     src: url(/hotelMarkupAssets/SourceSans3-VariableFont_wght.ttf);
 }
 
-body{
-    width: 1440px;
-}
 
 .NavBG{
-    top: 0px;
-left: 0px;
-width: 1440px;
 height: 120px;
 background: #000324 0% 0% no-repeat padding-box;
 opacity: 1;
@@ -31,7 +25,7 @@ opacity: 1;
     
     position: absolute;
     top: 9px;
-left: 700px;
+left: 710px;
 width: 143px;
 height: 100px;
 /* UI Properties */
@@ -41,11 +35,9 @@ opacity: 1;
 }
 
 .Header{
-   
-    top: 119px;
-left: 0px;
-width: 1440px;
+    width: 1500px;
 height: 500px;
+padding: 0;
 /* UI Properties */
 opacity: 1;
 }
@@ -78,8 +70,8 @@ opacity: 1;
     font-family: SourceSans3;
     position: absolute;
     top: 383px;
-left: 570px;
-width: 418px;
+left: 535px;
+width: 480px;
 height: 20px;
 /* UI Properties */
 text-align: center;
@@ -147,9 +139,7 @@ opacity: 1;
 }
 
 .welcome{
-    position: absolute;
-    top: 719px;
-left: 776px;
+   
 width: 434px;
 height: 44px;
 text-align: left;
@@ -160,19 +150,14 @@ opacity: 1;
 }
 
 .bg2{
-    position: absolute;
-    top: 1235px;
-left: 0px;
-width: 1440px;
+width: 1497px;
 height: 738px;
 opacity: 1;
 }
 
 .rooms{
-    position: absolute;
-    top: 1266px;
-left: 887px;
-width: 146px;
+display: flex;
+justify-content: center;
 height: 44px;
 text-align: center;
 font: normal normal normal 35px/44px Dosis;
@@ -198,4 +183,10 @@ background: #FFFFFF 0% 0% no-repeat padding-box;
 height: 190px;
 border-radius: 0%;
 
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
