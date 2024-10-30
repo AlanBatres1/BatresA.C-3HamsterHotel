@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Dosis;
+    font-weight: 300;
+    src: url(/hotelMarkupAssets/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: SourceSans3;
+    src: url(/hotelMarkupAssets/SourceSans3-VariableFont_wght.ttf);
+}
+
+body{
+    width: 1440px;
+}
+
+.NavBG{
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 120px;
+background: #000324 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.fill{
+    object-fit: cover;
+    object-position: center;
+}
+
+.Logo{
+    
+    position: absolute;
+    top: 9px;
+left: 700px;
+width: 143px;
+height: 100px;
+/* UI Properties */
+background: transparent url('img/Logo.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+
+}
+
+.Header{
+   
+    top: 119px;
+left: 0px;
+width: 1440px;
+height: 500px;
+/* UI Properties */
+opacity: 1;
+}
+
+.OpaicBox{
+    position: absolute;
+    top: 253px;
+left: 300px;
+width: 945px;
+height: 232px;
+/* UI Properties */
+background: #000324 0% 0% no-repeat padding-box;
+opacity: 80%;
+}
+
+.h1OpaicBox{
+    font-family: dosis;
+    position: absolute;
+    top: 312px;
+left: 550px;
+width: 456px;
+height: 57px;
+text-align: center;
+font: normal normal normal 45px/57px;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+.pOpaicBox{
+    font-family: SourceSans3;
+    position: absolute;
+    top: 383px;
+left: 570px;
+width: 418px;
+height: 20px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+
+.Card1{
+   
+    top: 728px;
+left: 393px;
+width: 369px;
+height: 416px;
+/* UI Properties */
+opacity: 1;
+}
+
+.awardfinest{
+ 
+    top: 962px;
+left: 776px;
+width: 200px;
+height: 153px;
+/* UI Properties */
+background: transparent url('img/awardfinest.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.awardsatisfaction{
+  
+    top: 931px;
+left: 1052px;
+width: 200px;
+height: 193px;
+background: transparent url('img/awardsatisfaction.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.awardgenuine{
+ 
+    top: 949px;
+left: 1355px;
+width: 200px;
+height: 175px;
+/* UI Properties */
+background: transparent url('img/awardgenuine.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.Nestled{
+    
+    top: 785px;
+left: 776px;
+width: 753px;
+height: 155px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+
+}
+
+.welcome{
+    position: absolute;
+    top: 719px;
+left: 776px;
+width: 434px;
+height: 44px;
+text-align: left;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #1A1B26;
+opacity: 1;
+}
+
+.bg2{
+    position: absolute;
+    top: 1235px;
+left: 0px;
+width: 1440px;
+height: 738px;
+opacity: 1;
+}
+
+.rooms{
+    position: absolute;
+    top: 1266px;
+left: 887px;
+width: 146px;
+height: 44px;
+text-align: center;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.Card2{
+    position: absolute;
+    top: 1339px;
+left: 383px;
+width: 369px;
+height: 533px;
+border-radius: 0%;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+
+}
+.room1{
+    position: absolute;
+    left: 383px;
+    width: 369px;
+height: 190px;
+border-radius: 0%;
+
+}
