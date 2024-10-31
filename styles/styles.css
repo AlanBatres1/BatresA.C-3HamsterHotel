@@ -21,17 +21,18 @@ opacity: 1;
     object-position: center;
 }
 
-.Logo{
-    
-    position: absolute;
-    top: 9px;
-left: 710px;
+.LogoSize{
+    margin-top: 15px;
 width: 143px;
 height: 100px;
 /* UI Properties */
 background: transparent url('img/Logo.png') 0% 0% no-repeat padding-box;
 opacity: 1;
+}
 
+.Logomove{
+    display: flex;
+    justify-content: center;
 }
 /* Navbar End */
 
@@ -98,9 +99,6 @@ opacity: 1;
 }
 
 .awardfinest{
- 
-    top: 962px;
-left: 776px;
 width: 200px;
 height: 153px;
 /* UI Properties */
@@ -109,9 +107,6 @@ opacity: 1;
 }
 
 .awardsatisfaction{
-  
-    top: 931px;
-left: 1052px;
 width: 200px;
 height: 193px;
 background: transparent url('img/awardsatisfaction.png') 0% 0% no-repeat padding-box;
@@ -119,9 +114,6 @@ opacity: 1;
 }
 
 .awardgenuine{
- 
-    top: 949px;
-left: 1355px;
 width: 200px;
 height: 175px;
 /* UI Properties */
@@ -161,8 +153,6 @@ opacity: 1;
 }
 
 .rooms{
-display: flex;
-justify-content: center;
 height: 44px;
 margin: 25px;
 text-align: center;
@@ -323,8 +313,8 @@ opacity: 1;
 /* Section5 Start */
 .Section5bg{
     background-image: url(/hotelMarkupAssets/bg.jpg);
-   
-    height: 700px;
+    height: 548px;
+    background-repeat: no-repeat;
 }
 .pExplore{
     text-align: center;
@@ -376,8 +366,93 @@ opacity: 1;
 /* Section 6 Start */
 
 .whitebg{
-    margin-top: 343px;
-    height: 925px;
+    margin-top: 90px;
+    height: 700px;
     background: white 0% 0% no-repeat padding-box;
     opacity: 1;
 }
+
+.Reserveimg{
+    background-image: url(/hotelMarkupAssets/hamsterreserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1137px;
+height: 600px;
+}
+.Reservebox{    
+    width: 1137px;
+    height: 207px;
+    background: #000324 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Centerwhite{
+    text-align: center;
+font: normal normal normal 35px/44px Dosis;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+.Reservetext{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+font: normal normal normal 16px/20px Source Sans Pro;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+.Reservetbox{
+    
+    width: 177px;
+height: 38px;
+background: #EBEDFC 0% 0% no-repeat padding-box;
+border: 1px solid #7A90D9;
+opacity: 1;
+}
+.bluebox{
+    display: flex;
+    justify-content: center;
+    width: 177px;
+height: 38px;
+background: #006EDB 0% 0% no-repeat padding-box;
+border: 1px solid #000DC7;
+opacity: 1;
+}
+.blueboxtext{
+ margin-top: 5px;
+text-align: center;
+font: normal normal bold 20px/25px SourceSans3;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+
+/* Section6 End */
+
+/* Section7 Start */
+
+.bg7{
+    height: 300px;
+background: #000324 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.Address{
+margin-top: 20px;
+text-align: center;
+font: normal normal normal 16px/20px SourceSans3;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+
+.Copyright{
+text-align: center;
+font: normal normal normal 16px/20px SourceSans3;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+/* Section7 End */
