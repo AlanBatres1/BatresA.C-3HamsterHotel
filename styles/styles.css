@@ -172,7 +172,7 @@ color:white;
 opacity: 1;
 }
 
-.Cards{
+.Space-Evenly{
     display: flex;
     justify-content: space-evenly;
     border-radius: 0%;
@@ -323,5 +323,61 @@ opacity: 1;
 /* Section5 Start */
 .Section5bg{
     background-image: url(/hotelMarkupAssets/bg.jpg);
+   
     height: 700px;
+}
+.pExplore{
+    text-align: center;
+font: normal normal normal 16px/20px SourceSans3;
+letter-spacing: 0px;
+color: #E5FEFF;
+opacity: 1;
+}
+
+.Hour24{
+    width: 145px;
+height: 101px;
+background: transparent url('img/24hour.png') 0% 0% no-repeat padding-box;
+opacity: 1
+}
+
+.Breakfast{
+    width: 145px;
+height: 104px;
+background: transparent url('img/breakfast.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.Valet{
+    width: 95px;
+height: 115px;
+background: transparent url('img/valet.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.Pool{
+    width: 150px;
+height: 110px;
+background: transparent url('img/pool.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.AmenitiesText{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+font: normal normal bold 20px/25px SourceSans3;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+/* Section 5 End */
+
+/* Section 6 Start */
+
+.whitebg{
+    margin-top: 343px;
+    height: 925px;
+    background: white 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
