@@ -16,6 +16,7 @@ background: #000324 0% 0% no-repeat padding-box;
 opacity: 1;
 }
 
+
 .fill{
     object-fit: cover;
     object-position: center;
@@ -35,6 +36,12 @@ font: normal normal normal 20px/26px Dosis;
 letter-spacing: 0px;
 color: #FFFFFF;
 opacity: 1;
+}
+.Navbartext:hover{
+    border: 2px solid white;
+    color: white;
+    border-radius: 1px;
+    
 }
 
 .Logomove{
@@ -67,6 +74,7 @@ background: #000324 0% 0% no-repeat padding-box;
 opacity: 80%;
 }
 
+
 .h1OpaicBox{
     margin-top: 75px;
     font-family: dosis;
@@ -90,13 +98,23 @@ opacity: 1;
 
 /* Section2 Start */
 .Card1{
-   
-    top: 728px;
-left: 393px;
 width: 369px;
 height: 416px;
+margin-top: 50px;
 /* UI Properties */
 opacity: 1;
+}
+.Bgwhite{
+    background: white 0% 0% no-repeat padding-box;
+    height: 600px;
+}
+
+.WelcomeBg{
+    background: white;
+    margin-top: 50px;
+    width: 900px;
+    height: 416px;
+    background-size: cover;
 }
 
 .awardfinest{
@@ -371,7 +389,7 @@ opacity: 1;
     height: 700px;
     background: white 0% 0% no-repeat padding-box;
     opacity: 1;
-}
+}   
 
 .Reserveimg{
     background-image: url(/hotelMarkupAssets/hamsterreserve.jpg);
@@ -399,6 +417,8 @@ opacity: 1;
     display: flex;
     justify-content: left;
     text-align: left;
+    margin: 0;
+    padding: 0;
 font: normal normal normal 16px/20px Source Sans Pro;
 letter-spacing: 0px;
 color: #E5FEFF;
@@ -406,7 +426,6 @@ opacity: 1;
 }
 .Reservetbox{
     
-    width: 177px;
 height: 38px;
 background: #EBEDFC 0% 0% no-repeat padding-box;
 border: 1px solid #7A90D9;
@@ -457,3 +476,57 @@ color: #E5FEFF;
 opacity: 1;
 }
 /* Section7 End */
+
+
+/* Tablet Responsiveness */
+@media (max-width: 768px) {
+    .OpaicBox {
+        width:768px;        
+        margin-top: 125px;    
+        padding: 0;   
+    }
+
+    .Header{
+        height: 500px;
+    }
+
+    .Card1{
+        width: 30%;
+        height: 350px;
+        margin-top: 10px;
+    }
+    .WelcomeBg{
+        width: 600px;
+        margin-top: 10px;
+    }
+    .welcome{
+        margin-left: 75px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Nestled{
+        width: 600px;
+    }
+
+    .Bgwhite{
+        height: 800px;
+    }
+
+    .PackageImgSize{
+        width: 250px;
+    }
+
+    .Packagewhitebg{
+        width: 400px;
+    }
+
+    .Reserveimg{
+        width: 768px;
+    }
+
+    .Reservebox{
+        width: 768px;
+        height: fit-content;
+    }
+}
